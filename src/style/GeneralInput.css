@@ -1,0 +1,245 @@
+div#root {
+  width: 100%;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div#sidebar {
+  color: rgb(45, 45, 45);
+  margin: 8px;
+  width: 380px;
+  height: 97vh;
+  overflow-y: scroll;
+}
+
+div.all {
+  background-color: rgb(245, 245, 245);
+  border-radius: 8px;
+  margin: 4px;
+  /* width: auto; */
+}
+
+h1 {
+  font-size: 26px;
+  border-bottom: 1px solid black;
+  margin: 4px;
+  padding: 12px 8px 12px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  background-color: white;
+  border: 1px solid black;
+  height: 34px;
+  border-radius: 6px;
+  box-shadow: 0px 0.2px 0px black;
+  padding: 4px 12px;
+  color: black;
+  margin: 4px 14px;
+  width: calc(100% - 28px);
+}
+
+h3 {
+  font-size: 16px;
+  margin: 4px 14px;
+}
+
+button {
+  margin: 8px 14px;
+  width: calc(100% - 28px);
+}
+
+button.inverted {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button.inverted:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+button:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+div.all {
+  background-color: rgb(245, 245, 245);
+  border-radius: 8px;
+  margin: 4px;
+}
+
+div.edu {
+  display: flex;
+  align-items: center;
+  margin: 0px 16px;
+  border-bottom: 1px solid black;
+}
+
+div.edu h2 {
+  flex: 9;
+  font-size: 20px;
+}
+
+div.edu div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.edu .icon {
+  padding: 2px;
+}
+
+div.edu .icon:hover {
+  /* padding: 6px 0px 8px 4px; */
+  background-color: grey;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+div.container {
+  zoom: 0.65;
+  background-color: white;
+  color: rgb(31, 31, 31);
+  margin: 11px 0px;
+  padding: 1px 0px;
+  height: auto;
+  width: 800px;
+}
+
+div#headerCV {
+  display: flex;
+  margin: 28px 0px;
+}
+
+div#main {
+  height: 100vh;
+  /* overflow: hidden; */
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+div.container h1 {
+  border: none;
+}
+
+div.HeaderLeft {
+  background-color: rgba(61, 61, 61, 255);
+  color: rgba(252, 252, 252, 255);
+  flex: 55;
+  padding-left: 80px;
+  padding: 10px 0px 10px 80px;
+}
+
+div.HeaderLeft h1 {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+div.HeaderLeft p {
+  margin-top: 0px;
+}
+
+div.HeaderRight {
+  margin-left: 20px;
+  flex: 45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+div.Icons {
+  display: flex;
+  align-items: center;
+}
+
+svg.icon {
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 6px;
+}
+
+div.containerCV {
+  border-top: 1px solid black;
+  margin: 0px 30px;
+  padding: 20px 40px;
+  display: flex;
+  gap: 90px;
+}
+
+div.containerCV h2 {
+  margin-top: 8px;
+  min-width: 150px;
+}
+
+div.containerCV p {
+  max-width: 500px;
+  margin: 0px;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+div.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+div.jobInfo h3 {
+  margin: 0px;
+  margin-top: 2px;
+}
+
+div.jobInfo p.jobPosition {
+  margin-bottom: 4px;
+}
+
+div.jobInfo p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+div.eduInfo {
+  display: flex;
+  align-items: center;
+}
+
+div.eduLeft {
+  min-width: 160px;
+}
+
+div.eduLeft h3 {
+  margin-left: 0px;
+}
+
+div.eduLeft p {
+  text-align: left;
+}
+
+div.eduLeft {
+  width: 160px;
+}
+
+div.eduRight p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
